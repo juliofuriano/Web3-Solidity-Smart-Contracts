@@ -10,12 +10,11 @@ Repositorio de estudio, desarrollo de contratos inteligentes y ejercicios práct
 
 - **02. Estándar ERC-20 (`/02-erc20-token`)**:
   - `Cryptoreal.sol`: Token fungible estándar implementado con librerías de OpenZeppelin. Emisión inicial controlada (`_mint`) de 1.000 tokens con 18 decimales asignados a la cuenta desplegadora.
-    
-- **03. Interacción entre Contratos (`/03-contratos-conectados`)**:
+  - Interacción entre Contratos (`/03-contratos-conectados`)**:
   - `Sumador.sol` y `Resultado.sol`: Comunicación entre contratos en la EVM mediante interfaces y llamadas directas para almacenamiento y procesamiento de datos.
   - `PruebaSeguridad.sol`: Pruebas de ejecución y comprobación de funciones pagables (`payable`).
 
-- **04. Proyectos I - Intermedio (`/04.1-banco-cripto`)**:
+- **03. Proyectos I - Intermedio (`/03.1-banco-cripto`)**:
   - `CryptoBank.sol`: Bóveda multiusuario de Ether con control contable independiente (`userBalance`), límite parametrizable global (`maxBalance`), control de acceso administrativo (`onlyAdmin`), mitigación de vectores de reentrancy aplicando el patrón CEI (*Checks-Effects-Interactions*) y eventos on-chain.
   - 
 ## 🛠️ Herramientas utilizadas
