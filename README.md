@@ -15,11 +15,9 @@ Repositorio de estudio, desarrollo de contratos inteligentes y ejercicios práct
   - `Sumador.sol` y `Resultado.sol`: Comunicación entre contratos en la EVM mediante interfaces y llamadas directas para almacenamiento y procesamiento de datos.
   - `PruebaSeguridad.sol`: Pruebas de ejecución y comprobación de funciones pagables (`payable`).
 
-- **04. Protocolos y Seguridad (`/04-banco-cripto`)**:
+- **04. Proyectos I - Intermedio (`/04.1-banco-cripto`)**:
   - `CryptoBank.sol`: Bóveda multiusuario de Ether con control contable independiente (`userBalance`), límite parametrizable global (`maxBalance`), control de acceso administrativo (`onlyAdmin`), mitigación de vectores de reentrancy aplicando el patrón CEI (*Checks-Effects-Interactions*) y eventos on-chain.
-
-
-
+  - 
 ## 🛠️ Herramientas utilizadas
 - **Lenguaje:** Solidity (`^0.8.24`)
 - **Librerías:** OpenZeppelin Contracts
