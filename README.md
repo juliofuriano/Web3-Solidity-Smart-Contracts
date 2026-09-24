@@ -17,8 +17,8 @@ Repositorio de estudio, desarrollo de contratos inteligentes y ejercicios práct
   - `PayableFunctions/PayableContract.sol` y `PayableContractv2.sol`: Manejo de funciones pagables, recepción de fondos y validaciones de balances[cite: 5].
   - `Comprobadores/requireTest.sol` y `PruebaSeguridad.sol`: Control de flujo, aserciones mediante `require` y pruebas de seguridad en llamadas[cite: 1, 5].
 
-- **04. Proyectos I - Intermedio (`/04-proyectos-I`)**:
-  - `CryptoBank.sol`: Bóveda multiusuario de Ether con control contable independiente (`userBalance`), límite parametrizable global (`maxBalance`), control de acceso administrativo (`onlyAdmin`), mitigación de vectores de reentrancy aplicando el patrón CEI (*Checks-Effects-Interactions*) y eventos on-chain[cite: 1, 4].
+- - **04. Proyectos I - Intermedio (`/04-Proyectos_Intermedio_I`)**:
+  - `CryptoBank/CryptoBank.sol`: Bóveda multiusuario de Ether con control contable independiente (`userBalance`), límite parametrizable global (`maxBalance`), control de acceso administrativo (`onlyAdmin`), mitigación de vectores de reentrancy aplicando el patrón CEI (*Checks-Effects-Interactions*) y eventos on-chain.
 
 - **05. Seguridad y Vulnerabilidades (`/X-Seguridad-Vulnerabilidades`)**:
   - `01-vulnerabilidad-tx-origin`: Análisis de vectores de ataque por suplantación de identidad mediante `tx.origin` frente a `msg.sender`, diseño del contrato víctima vulnerable y simulación del contrato atacante para drenaje de fondos[cite: 6].
