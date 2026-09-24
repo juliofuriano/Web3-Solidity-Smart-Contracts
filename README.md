@@ -20,8 +20,6 @@ Repositorio de estudio, desarrollo de contratos inteligentes y ejercicios práct
 - - **04. Proyectos I - Intermedio (`/04-Proyectos_Intermedio_I`)**:
   - `CryptoBank/CryptoBank.sol`: Bóveda multiusuario de Ether con control contable independiente (`userBalance`), límite parametrizable global (`maxBalance`), control de acceso administrativo (`onlyAdmin`), mitigación de vectores de reentrancy aplicando el patrón CEI (*Checks-Effects-Interactions*) y eventos on-chain.
 
-- **05. Seguridad y Vulnerabilidades (`/X-Seguridad-Vulnerabilidades`)**:
-  - `01-vulnerabilidad-tx-origin`: Análisis de vectores de ataque por suplantación de identidad mediante `tx.origin` frente a `msg.sender`, diseño del contrato víctima vulnerable y simulación del contrato atacante para drenaje de fondos[cite: 6].
 
 ## 🛠️ Herramientas utilizadas
 - **Lenguaje:** Solidity (`^0.8.24`)
